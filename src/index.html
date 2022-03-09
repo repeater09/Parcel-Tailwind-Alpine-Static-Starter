@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tailwind and Alpine</title>
+		<script src="./js/app.js" type="module"></script>
+	</head>
+	<body>
+        <div x-data="{ count: 0 }">
+            <button x-on:click="count++">Increment</button>
+         
+            <span x-text="count"></span>
+        </div>
+	</body>
+</html>
