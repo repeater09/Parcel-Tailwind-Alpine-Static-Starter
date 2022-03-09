@@ -5,4 +5,10 @@
 + Tailwind
 + AlpineJS
 
+### How to start
+
++ run `npm install`
++ run `npx parcel src/index.html`
+
+
 
